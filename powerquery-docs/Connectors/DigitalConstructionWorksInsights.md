@@ -37,17 +37,17 @@ To connect to a DCW Insights project, take the following steps:
 
 1. Under **Get Data** in Power BI Desktop, choose the **Digital Construction Works Insights** connector from the **Online Services**.
 
-    ![Image with DCW Integrations Platform Insights dialog box before the API URL is entered.](./media/dcw-insights-connector/step1.png)
+    ![Step1](https://user-images.githubusercontent.com/868165/211388369-7675411c-df98-44f0-afbe-6cade536194a.png)
 
 2. In **Insights Api Url**, provide the URL to the OData API you want to connect to. You need to use `https`, and you need your full project URL and product name included in the URL. You can also enter in query string parameters if the URL calls for it.
 
-   ![Image with DCW Integrations Platform Insights dialog box with an API URL entered.](./media/dcw-insights-connector/step2.png)
+   ![Step2](https://user-images.githubusercontent.com/868165/211388413-6bd9a7d5-74d7-48ea-9312-fb8eedf1fb8f.png)
 
 3. Select **OK**.
 
 4. If this is the first time you're connecting to this endpoint, you'll be asked to enter in the [JWT](#prerequisites) used to authorize you for this project. Then select **Connect**.
 
-   ![Image of DCW Insights JWT authentication dialog with blank Account key in which to enter the JWT.](./media/dcw-insights-connector/step3.png)
+   ![Step3](https://user-images.githubusercontent.com/868165/211388444-bac0fa26-f0b3-441d-8c65-3b1046cb22d2.png)
 
    For more information about authentication methods, go to [Authentication with a data source](../connectorauthentication.md).
 
@@ -56,7 +56,7 @@ To connect to a DCW Insights project, take the following steps:
 
 5. In **Navigator**, select the database information you want, then either select **Load** to load the data or **Transform Data** to continue transforming the data in Power Query editor.
 
-   ![Power Query Desktop Navigator showing specific product data.](./media/dcw-insights-connector/step4.png)
+   ![Step4](https://user-images.githubusercontent.com/868165/211388473-8e8346c9-78a5-4ff4-8266-f1ff4d92c695.png)
 
 ## Troubleshooting
 
